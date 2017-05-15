@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector!</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</head>
+<body>
+
+<div class="row">
+
+  <div class="col-md-1"></div>
+
+  <div class="col-md-10">
+    <div class="panel panel-default main">
+      <div class="panel-body">
+
+		<h1>Crystal Collector!</h1>
+
+		<p>You will be given a random number at the start of the game.</p>
+		<p>Each of the four crystals below will add a specific (unknown) number of points to your total score when clicked.</p>
+		<p>To win the game, match your total score to the random number; if your total score goes above the random number you lose.</p>
+		<p>Note: Each time the game starts, the values of the crystals will change.</p>
+		<p>Good luck!</p>
+
+		<hr />
+
+		<h2>Aim for:</h2>
+		<span class="random"></span>
+		<h2>So far:</h2>
+		<span class="count"></span>
+
+		<div>
+			<img id="bluegem" src="assets/images/blue_gem.png" alt="blue" width="100px">
+			<img id="greengem" src="assets/images/green_gem.png" alt="green" width="100px">
+			<img id="purplegem" src="assets/images/purple_gem.png" alt="purple" width="100px">
+			<img id="pinkgem" src="assets/images/pink_gem.png" alt="pink" width="100px">
+		</div>
+
+		<h2>Wins:</h2>
+		<span class="win"></span>
+		<h2>Losses:</h2>
+		<span class="lose"></span>
+
+</div> <!--col-md-10-->
+<div class="col-md-1"></div>
+</div> <!--row-->
+</body>
+</html>
