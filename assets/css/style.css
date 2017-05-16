@@ -5,13 +5,19 @@ body {
 	text-align: center;
 }
 
-.panel {
-	margin-top: 50px;
-}
-
 img {
 	margin: 0 auto;
 	padding: 5px;
+}
+
+h1 {
+	font-size: 45px;
+	color: #FF9700;
+	font-weight: bold;
+}
+
+.panel {
+	margin-top: 50px;
 }
 
 .random {
