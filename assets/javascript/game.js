@@ -18,14 +18,20 @@ function winLose() {
 	//if sofarnum > targetnum, increase lose count and reset other variables
 	if (sofarnum > targetnum) {
 		$(".lose").text(++lose);
-		gameOver = true;
-		alert("You lose! Try again?");
+		setTimeout(function(){
+			alert("You lose! Try again?");
+			gameOver = true;
+			reset();
+			},100);
 	}
 	//if sofarnum = targetnum, increase win count and reset other variables
 	if (sofarnum === targetnum) {
 		$(".win").text(++win);
-		gameOver = true;
-		alert("You won! Play again?");
+		setTimeout(function(){
+			alert("You won! Play again?");
+			gameOver = true;
+			reset();
+			},100);
 	}
 }
 
